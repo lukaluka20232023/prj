@@ -6,7 +6,6 @@
     tools:context=".FavouritesFragment"
     android:orientation="vertical">
 
-
     <TextView
         android:id="@+id/album_title"
         android:layout_width="wrap_content"
@@ -17,8 +16,6 @@
         android:paddingTop="20dp"
         android:paddingBottom="8dp"
         android:layout_marginLeft="25dp"/>
-
-
 
     <HorizontalScrollView
         android:layout_width="match_parent"
@@ -193,9 +190,7 @@
                         android:textSize="19dp"
                         android:layout_marginTop="8dp"/>
                 </LinearLayout>
-
             </LinearLayout>
         </LinearLayout>
     </HorizontalScrollView>
-
 </LinearLayout>

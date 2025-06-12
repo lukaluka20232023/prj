@@ -12,7 +12,6 @@ public class SearchActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search);
 
-        // —— Bottom Navigation (no‐checks version) ——
         BottomNavigationView nav = findViewById(R.id.bottom_navigation);
         nav.setSelectedItemId(R.id.search);
         nav.setOnItemSelectedListener(item -> {
@@ -26,7 +25,6 @@ public class SearchActivity extends AppCompatActivity {
             return true;
         });
 
-        // —— Dynamically insert your two fragments ——
         FragmentManager fm = getSupportFragmentManager();
         fm.beginTransaction()
                 .replace(R.id.fragment_container_search, new SearchFragment())

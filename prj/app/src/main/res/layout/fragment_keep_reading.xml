@@ -6,7 +6,6 @@
     tools:context=".KeepReadingFragment"
     android:orientation="vertical">
 
-
     <TextView
         android:id="@+id/album_title"
         android:layout_width="wrap_content"
@@ -18,14 +17,11 @@
         android:paddingBottom="8dp"
         android:layout_marginLeft="25dp"/>
 
-
-
     <HorizontalScrollView
         android:layout_width="match_parent"
         android:layout_height="250dp"
         android:layout_marginTop="15dp">
 <!--        android:nestedScrollingEnabled="false" not needed anymore, since already not scrollable - not enough to scroll  -->
-
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent">
@@ -37,7 +33,7 @@
                 android:layout_gravity="center"
                 android:layout_margin="10dp">
 
-        <LinearLayout
+                <LinearLayout
             android:layout_width="120dp"
             android:layout_height="match_parent"
             android:orientation="vertical"
@@ -59,7 +55,7 @@
                 android:layout_marginTop="8dp"/>
         </LinearLayout>
 
-        <LinearLayout
+                <LinearLayout
             android:layout_width="120dp"
             android:layout_height="match_parent"
             android:orientation="vertical"
@@ -82,8 +78,7 @@
                 android:layout_marginTop="8dp"/>
         </LinearLayout>
 
-    </LinearLayout>
+            </LinearLayout>
         </LinearLayout>
     </HorizontalScrollView>
-
 </LinearLayout>

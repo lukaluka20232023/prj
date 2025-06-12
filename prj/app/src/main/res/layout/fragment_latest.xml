@@ -24,7 +24,6 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:paddingLeft="9dp">
-
             <LinearLayout
                 android:layout_width="170dp"
                 android:layout_height="320dp"
@@ -78,7 +77,6 @@
                     android:text="Hell Teacher"
                     android:textSize="20dp"/>
             </LinearLayout>
-
             <LinearLayout
                 android:layout_width="170dp"
                 android:layout_height="320dp"
@@ -132,7 +130,6 @@
                     android:text="Chainsaw Man"
                     android:textSize="20dp"/>
             </LinearLayout>
-
             <LinearLayout
                 android:layout_width="170dp"
                 android:layout_height="320dp"
@@ -186,7 +183,6 @@
                     android:text="MarriageToxin"
                     android:textSize="20dp"/>
             </LinearLayout>
-
             <LinearLayout
                 android:layout_width="170dp"
                 android:layout_height="320dp"
@@ -240,7 +236,6 @@
                     android:text="Make the Exorcist"
                     android:textSize="20dp"/>
             </LinearLayout>
-
             <LinearLayout
                 android:layout_width="170dp"
                 android:layout_height="320dp"
@@ -294,7 +289,6 @@
                     android:text="Dandadan"
                     android:textSize="20dp"/>
             </LinearLayout>
-
             <LinearLayout
                 android:layout_width="170dp"
                 android:layout_height="320dp"
@@ -348,7 +342,6 @@
                     android:text="Strikeout Pitch"
                     android:textSize="20dp"/>
             </LinearLayout>
-
             <LinearLayout
                 android:layout_width="170dp"
                 android:layout_height="320dp"
@@ -402,7 +395,6 @@
                     android:text="Ichi the Witch"
                     android:textSize="20dp"/>
             </LinearLayout>
-
             <LinearLayout
                 android:layout_width="170dp"
                 android:layout_height="320dp"
@@ -456,7 +448,6 @@
                     android:text="One Piece"
                     android:textSize="20dp"/>
             </LinearLayout>
-
             <LinearLayout
                 android:layout_width="170dp"
                 android:layout_height="320dp"
@@ -510,7 +501,6 @@
                     android:text="Kagurabachi"
                     android:textSize="20dp"/>
             </LinearLayout>
-
             <LinearLayout
                 android:layout_width="170dp"
                 android:layout_height="320dp"
@@ -564,7 +554,6 @@
                     android:text="SAKAMOTO DAYS"
                     android:textSize="20dp"/>
             </LinearLayout>
-            <!--
             <LinearLayout
                 android:layout_width="170dp"
                 android:layout_height="320dp"
@@ -672,8 +661,6 @@
                     android:text="Marshall King"
                     android:textSize="20dp"/>
             </LinearLayout>
-            -->
         </LinearLayout>
     </HorizontalScrollView>
-
 </FrameLayout>

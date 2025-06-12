@@ -11,7 +11,7 @@ public class HistoryActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_history);  // hosts KeepReadingFragment, FavouritesFragment, RecommendedFragment
+        setContentView(R.layout.activity_history);
 
         bottomNavigationView = findViewById(R.id.bottom_navigation);
         bottomNavigationView.setSelectedItemId(R.id.read);

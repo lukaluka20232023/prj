@@ -17,13 +17,11 @@
         android:paddingBottom="8dp"
         android:layout_marginLeft="25dp"/>
 
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="26dp"
         android:layout_marginVertical="10dp">
-
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -206,10 +204,7 @@
                 android:layout_gravity="center"
                 android:textSize="14dp"/>
         </LinearLayout>
-
-
     </LinearLayout>
-
 
     <Button
         android:id="@+id/btnSeeMore"

@@ -6,7 +6,6 @@
     tools:context=".KeepReadingFragment"
     android:orientation="vertical">
 
-
     <TextView
         android:id="@+id/album_title"
         android:layout_width="wrap_content"
@@ -18,9 +17,6 @@
         android:paddingBottom="8dp"
         android:layout_marginLeft="25dp"/>
 
-
-
-
     <HorizontalScrollView
         android:layout_width="match_parent"
         android:layout_height="250dp"
@@ -29,14 +25,12 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent">
-
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="250dp"
                 android:gravity="center"
                 android:layout_gravity="center"
                 android:layout_margin="10dp">
-
                 <LinearLayout
                     android:layout_width="120dp"
                     android:layout_height="match_parent"
@@ -149,10 +143,7 @@
                         android:textSize="19dp"
                         android:layout_marginTop="8dp"/>
                 </LinearLayout>
-
             </LinearLayout>
-
         </LinearLayout>
     </HorizontalScrollView>
-
 </LinearLayout>
