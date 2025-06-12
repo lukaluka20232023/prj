@@ -4,9 +4,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".BrowseFragment">
+    tools:context=".SearchFragment">
 
     <LinearLayout
+        android:id="@+id/searchId"
         android:layout_width="match_parent"
         android:layout_height="55dp"
         android:layout_gravity="center_horizontal"
@@ -19,17 +20,16 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="horizontal"
-                    android:weightSum="2">
+                    android:orientation="horizontal">
                         <TextView
-                            android:layout_width="wrap_content"
+                            android:layout_width="300dp"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_vertical"
-                            android:paddingLeft="15dp"
+                            android:paddingStart="15dp"
                             android:textColor="@color/gray"
                             android:textStyle="italic"
-                            android:text="Search....                                                                "
-                            android:layout_weight="1"/>
+                            android:text="Search...."
+                            tools:ignore="RtlSymmetry" />
                         <ImageView
                             android:layout_width="25dp"
                             android:layout_height="25dp"

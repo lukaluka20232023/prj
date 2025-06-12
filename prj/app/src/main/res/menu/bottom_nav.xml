@@ -9,19 +9,19 @@
         android:icon="@drawable/home"
         app:showAsAction="always"/>
     <item
-        android:id="@+id/playlist"
+        android:id="@+id/hot"
         android:title="Playlist"
-        android:icon="@drawable/playlist"
-        app:showAsAction="always"/>
-    <item
-        android:id="@+id/player"
-        android:title="Player"
-        android:icon="@drawable/player"
+        android:icon="@drawable/fire"
         app:showAsAction="always"/>
     <item
         android:id="@+id/search"
         android:title="Search"
         android:icon="@drawable/search"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/read"
+        android:title="Player"
+        android:icon="@drawable/book"
         app:showAsAction="always"/>
     <item
         android:id="@+id/settings"

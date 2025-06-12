@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".AlbumFragment">
+    tools:context=".LatestFragment">
 
     <TextView
         android:id="@+id/genres_title"
@@ -13,7 +13,7 @@
         android:text="Latest Updates"
         android:textSize="30dp"
         android:textStyle="bold"
-        android:layout_gravity="center_horizontal"/>
+        android:layout_marginLeft="25dp"/>
 
     <HorizontalScrollView
         android:layout_width="match_parent"

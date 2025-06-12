@@ -5,7 +5,8 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SearchActivity">
+    android:orientation="vertical"
+    tools:context=".HistoryActivity">
 
     <ScrollView
         android:id="@+id/scrollView"
@@ -16,25 +17,41 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent">
 
-        <LinearLayout
-            android:id="@+id/scrollViewsLayout"
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+            <fragment
+                android:id="@+id/fragment_container3"
+                android:name="com.example.prj.KeepReadingFragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:layout="@layout/fragment_keep_reading"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+
+        <fragment
+            android:id="@+id/fragment_container4"
+            android:name="com.example.prj.FavouritesFragment"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:padding="16dp">
+            tools:layout="@layout/fragment_favourites"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/fragment_container3"/>
 
-            <FrameLayout
-                android:id="@+id/fragment_container_search"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
 
-            <FrameLayout
-                android:id="@+id/fragment_container_sorted"
+            <fragment
+                android:id="@+id/fragment_container5"
+                android:name="com.example.prj.ReccomendedFragment"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                tools:layout="@layout/fragment_reccomended"
+                app:layout_constraintTop_toBottomOf="@id/fragment_container4"/>
 
         </LinearLayout>
     </ScrollView>
+
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navigation"

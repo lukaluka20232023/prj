@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PlaylistActivity">
+    tools:context=".HotActivity">
 
     <ScrollView
         android:id="@+id/scrollView"
@@ -14,7 +14,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toTopOf="@id/bottom_navigation"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent">
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="15dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -30,35 +31,31 @@
 
             <fragment
                 android:id="@+id/fragment_container5"
-                android:name="com.example.prj.GenresFragment"
+                android:name="com.example.prj.LatestFragment"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 tools:layout="@layout/fragment_latest" />
 
             <fragment
                 android:id="@+id/fragment_container2"
-                android:name="com.example.prj.GenresFragment"
+                android:name="com.example.prj.HottestFragment"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 tools:layout="@layout/fragment_hottest" />
 
-            <TextView
-                android:id="@+id/artist_title"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Artists"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                android:layout_gravity="center_horizontal"
-                android:paddingTop="16dp"
-                android:paddingBottom="8dp" />
-
             <fragment
                 android:id="@+id/fragment_container3"
-                android:name="com.example.prj.ArtistFragment"
+                android:name="com.example.prj.TrendingFragment"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                tools:layout="@layout/fragment_artist" />
+                tools:layout="@layout/fragment_trending" />
+
+            <fragment
+                android:id="@+id/fragment_container4"
+                android:name="com.example.prj.CompletedFragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:layout="@layout/fragment_completed" />
 
         </LinearLayout>
     </ScrollView>

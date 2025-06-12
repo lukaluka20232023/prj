@@ -1,22 +1,20 @@
 package com.example.prj;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-public class MainActivity extends AppCompatActivity {
+public class HistoryActivity extends AppCompatActivity {
     BottomNavigationView bottomNavigationView;
 
-    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);  // hosts HomeFragment & LatestHomeFragment
+        setContentView(R.layout.activity_history);  // hosts KeepReadingFragment, FavouritesFragment, RecommendedFragment
 
         bottomNavigationView = findViewById(R.id.bottom_navigation);
-        bottomNavigationView.setSelectedItemId(R.id.main);
+        bottomNavigationView.setSelectedItemId(R.id.read);
 
         bottomNavigationView.setOnItemSelectedListener(item -> {
             int id = item.getItemId();

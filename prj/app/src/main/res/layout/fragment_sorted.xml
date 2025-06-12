@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".SortedFragment"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/album_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A-Z"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:paddingTop="20dp"
+        android:paddingBottom="8dp"
+        android:layout_marginLeft="25dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="110dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="110dp"
+                    android:layout_height="180dp"
+                    android:layout_gravity="center_horizontal"
+                    app:cardCornerRadius="0dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/bleach"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="28dp"
+                        android:layout_gravity="bottom|center"
+                        android:background="@drawable/gradient_gra" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Bleach"
+                        android:textSize="18dp"
+                        android:textColor="@color/white"
+                        android:layout_gravity="bottom|center"
+                        android:layout_marginRight="3dp"/>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="110dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="110dp"
+                    android:layout_height="180dp"
+                    android:layout_gravity="center_horizontal"
+                    app:cardCornerRadius="0dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/boruto"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="28dp"
+                        android:layout_gravity="bottom|center"
+                        android:background="@drawable/gradient_gra" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Boruto"
+                        android:textSize="18dp"
+                        android:textColor="@color/white"
+                        android:layout_gravity="bottom|center"
+                        android:layout_marginRight="3dp"/>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="110dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="110dp"
+                    android:layout_height="180dp"
+                    android:layout_gravity="center_horizontal"
+                    app:cardCornerRadius="0dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/chainsaw_man"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="28dp"
+                        android:layout_gravity="bottom|center"
+                        android:background="@drawable/gradient_gra" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Chainsaw Man"
+                        android:textSize="18dp"
+                        android:textColor="@color/white"
+                        android:layout_gravity="bottom|center"
+                        android:layout_marginRight="3dp"/>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="110dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="110dp"
+                    android:layout_height="180dp"
+                    android:layout_gravity="center_horizontal"
+                    app:cardCornerRadius="0dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/dandadan"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="28dp"
+                        android:layout_gravity="bottom|center"
+                        android:background="@drawable/gradient_gra" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Dandadan"
+                        android:textSize="18dp"
+                        android:textColor="@color/white"
+                        android:layout_gravity="bottom|center"
+                        android:layout_marginRight="3dp"/>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="110dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="110dp"
+                    android:layout_height="180dp"
+                    android:layout_gravity="center_horizontal"
+                    app:cardCornerRadius="0dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/dragonball"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="28dp"
+                        android:layout_gravity="bottom|center"
+                        android:background="@drawable/gradient_gra" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Dragon Ball"
+                        android:textSize="18dp"
+                        android:textColor="@color/white"
+                        android:layout_gravity="bottom|center"
+                        android:layout_marginRight="3dp"/>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="110dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="110dp"
+                    android:layout_height="180dp"
+                    android:layout_gravity="center_horizontal"
+                    app:cardCornerRadius="0dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/exorcist"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="28dp"
+                        android:layout_gravity="bottom|center"
+                        android:background="@drawable/gradient_gra" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Exorcist"
+                        android:textSize="18dp"
+                        android:textColor="@color/white"
+                        android:layout_gravity="bottom|center"
+                        android:layout_marginRight="3dp"/>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="110dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="110dp"
+                    android:layout_height="180dp"
+                    android:layout_gravity="center_horizontal"
+                    app:cardCornerRadius="0dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/flame"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="28dp"
+                        android:layout_gravity="bottom|center"
+                        android:background="@drawable/gradient_gra" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Otr Flame"
+                        android:textSize="18dp"
+                        android:textColor="@color/white"
+                        android:layout_gravity="bottom|center"
+                        android:layout_marginRight="3dp"/>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="110dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="110dp"
+                    android:layout_height="180dp"
+                    android:layout_gravity="center_horizontal"
+                    app:cardCornerRadius="0dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/hell_teacher"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="28dp"
+                        android:layout_gravity="bottom|center"
+                        android:background="@drawable/gradient_gra" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hell Teacher"
+                        android:textSize="18dp"
+                        android:textColor="@color/white"
+                        android:layout_gravity="bottom|center"
+                        android:layout_marginRight="3dp"/>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="110dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="110dp"
+                    android:layout_height="180dp"
+                    android:layout_gravity="center_horizontal"
+                    app:cardCornerRadius="0dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/witchi"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="28dp"
+                        android:layout_gravity="bottom|center"
+                        android:background="@drawable/gradient_gra" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ichi the Witch"
+                        android:textSize="18dp"
+                        android:textColor="@color/white"
+                        android:layout_gravity="bottom|center"
+                        android:layout_marginRight="3dp"/>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="110dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="110dp"
+                    android:layout_height="180dp"
+                    android:layout_gravity="center_horizontal"
+                    app:cardCornerRadius="0dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/kagurabachi"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="28dp"
+                        android:layout_gravity="bottom|center"
+                        android:background="@drawable/gradient_gra" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Kagurabachi"
+                        android:textSize="18dp"
+                        android:textColor="@color/white"
+                        android:layout_gravity="bottom|center"
+                        android:layout_marginRight="3dp"/>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="110dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="110dp"
+                    android:layout_height="180dp"
+                    android:layout_gravity="center_horizontal"
+                    app:cardCornerRadius="0dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/kaiju"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="28dp"
+                        android:layout_gravity="bottom|center"
+                        android:background="@drawable/gradient_gra" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Kaiju No.8"
+                        android:textSize="18dp"
+                        android:textColor="@color/white"
+                        android:layout_gravity="bottom|center"
+                        android:layout_marginRight="3dp"/>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="110dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="110dp"
+                    android:layout_height="180dp"
+                    android:layout_gravity="center_horizontal"
+                    app:cardCornerRadius="0dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/marriage_toxin"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="28dp"
+                        android:layout_gravity="bottom|center"
+                        android:background="@drawable/gradient_gra" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="MarriageToxin"
+                        android:textSize="18dp"
+                        android:textColor="@color/white"
+                        android:layout_gravity="bottom|center"
+                        android:layout_marginRight="3dp"/>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="110dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="110dp"
+                    android:layout_height="180dp"
+                    android:layout_gravity="center_horizontal"
+                    app:cardCornerRadius="0dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/marshall"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="28dp"
+                        android:layout_gravity="bottom|center"
+                        android:background="@drawable/gradient_gra" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Marshall King"
+                        android:textSize="18dp"
+                        android:textColor="@color/white"
+                        android:layout_gravity="bottom|center"
+                        android:layout_marginRight="3dp"/>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="110dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="110dp"
+                    android:layout_height="180dp"
+                    android:layout_gravity="center_horizontal"
+                    app:cardCornerRadius="0dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/naruto"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="28dp"
+                        android:layout_gravity="bottom|center"
+                        android:background="@drawable/gradient_gra" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Naruto"
+                        android:textSize="18dp"
+                        android:textColor="@color/white"
+                        android:layout_gravity="bottom|center"
+                        android:layout_marginRight="3dp"/>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="110dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="110dp"
+                    android:layout_height="180dp"
+                    android:layout_gravity="center_horizontal"
+                    app:cardCornerRadius="0dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/one_piece"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="28dp"
+                        android:layout_gravity="bottom|center"
+                        android:background="@drawable/gradient_gra" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="One Piece"
+                        android:textSize="18dp"
+                        android:textColor="@color/white"
+                        android:layout_gravity="bottom|center"
+                        android:layout_marginRight="3dp"/>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="110dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="110dp"
+                    android:layout_height="180dp"
+                    android:layout_gravity="center_horizontal"
+                    app:cardCornerRadius="0dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/sakamoto_days"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="28dp"
+                        android:layout_gravity="bottom|center"
+                        android:background="@drawable/gradient_gra" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sakamoto Days"
+                        android:textSize="18dp"
+                        android:textColor="@color/white"
+                        android:layout_gravity="bottom|center"
+                        android:layout_marginRight="3dp"/>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="110dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="110dp"
+                    android:layout_height="180dp"
+                    android:layout_gravity="center_horizontal"
+                    app:cardCornerRadius="0dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/spyxfamily"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="28dp"
+                        android:layout_gravity="bottom|center"
+                        android:background="@drawable/gradient_gra" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="SpyxFamily"
+                        android:textSize="18dp"
+                        android:textColor="@color/white"
+                        android:layout_gravity="bottom|center"
+                        android:layout_marginRight="3dp"/>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="110dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="110dp"
+                    android:layout_height="180dp"
+                    android:layout_gravity="center_horizontal"
+                    app:cardCornerRadius="0dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/strike_out"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="28dp"
+                        android:layout_gravity="bottom|center"
+                        android:background="@drawable/gradient_gra" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Strikeout Pitch"
+                        android:textSize="18dp"
+                        android:textColor="@color/white"
+                        android:layout_gravity="bottom|center"
+                        android:layout_marginRight="3dp"/>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

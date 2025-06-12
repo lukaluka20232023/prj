@@ -21,51 +21,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="16dp">
+            android:padding="20dp">
 
-            <fragment
-                android:name="com.example.prj.LyricsFragment"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                tools:layout="@layout/fragment_search" />
-
-            <TextView
-                android:id="@+id/lyrics_title"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Profile"
-                android:textSize="20dp"
-                android:textStyle="bold"
-                android:layout_gravity="center_horizontal"
-                android:paddingTop="16dp"
-                android:paddingBottom="8dp" />
-
-            <!-- Top fragment (Home) -->
             <fragment
                 android:id="@+id/fragment_container"
-                android:name="com.example.prj.LyricsFragment"
+                android:name="com.example.prj.ProfileFragment"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 tools:layout="@layout/fragment_profile" />
-
-            <!-- Genres title -->
-            <TextView
-                android:id="@+id/genres_title"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Settings"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                android:layout_gravity="center_horizontal"
-                android:paddingTop="16dp"
-                android:paddingBottom="8dp" />
-
-            <fragment
-                android:id="@+id/fragment_container5"
-                android:name="com.example.prj.GenresFragment"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                tools:layout="@layout/fragment_settings" />
         </LinearLayout>
     </ScrollView>
 
